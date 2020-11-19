@@ -5,5 +5,9 @@ interface CounterProps {
 }
 
 export const Counter: React.FC<CounterProps> = ({}) => {
-    return ();
+    return (
+      <div>
+        <p>wtf</p>
+      </div>
+    );
 }
